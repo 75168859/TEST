@@ -24,7 +24,6 @@ class Ticket implements Runnable{
 			if(ticket > 0){
 				System.out.println( Thread.currentThread().getName() + "---卖出--" + ticket--);
 			}
-				
 		}
 	}
 }
